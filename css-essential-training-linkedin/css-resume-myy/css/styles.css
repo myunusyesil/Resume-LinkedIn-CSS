@@ -35,20 +35,32 @@ body {
 }
 
 img {
-    width: 100px;
+    /* width: 100px; */
 }
 
 .project-item {
-    overflow: hidden;
     border-bottom: 1px dashed #012A36;
     padding: 20px 0;
+    display: flex;
+    align-items: flex-start;
     
 }
 
-.project-item  img{
-    float: left;
+.project-item img{
     margin-right: 20px;
 
+}
+
+.flex-item{
+    box-sizing: border-box;
+    padding: 10px;
+    flex: 1 1 150px;
+}
+
+.flex-item1{
+    box-sizing: border-box;
+    padding: 10px;
+    flex: 1 1 500px;
 }
 
 a {
@@ -107,16 +119,11 @@ header {
     color: whitesmoke;
     background-color: #012A36;
     text-decoration: none;
+    margin-top: 10px;
     padding: 8px;
     border-radius:4px;
-    display: inline-block;
-    position: relative;
-    left: 120px;
-    
-}
-
-.project-item h3, .project-item p, .project-item a {
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 .projects .btn:hover {
@@ -127,30 +134,29 @@ header {
     margin-top: 0;
 }
 
-
-
 .project-item:last-child {
     border-bottom: none;
-    text-align: center;
+ 
     
 }
 
-.project-item .btn-more {
+a.btn-more {
     color: whitesmoke;
     background-color: #012A36;
     text-decoration: none;
-    padding: 8px;
+    padding: 8px 40px;
     border-radius:4px;
-    display: inline-block;
-
+    padding: 10px auto;
 }
 
+.last-item {
+    text-align: center;
+}
 
 /* Work Experience
 ---------------------------------------*/
 .work-experience {
     background: #80DED9;
-    
 }
 
 .job-item {
@@ -163,17 +169,11 @@ header {
     margin-top: 40px;
 }
 
-
-
 /* Education
 ---------------------------------------*/
 .education {
     background-color: #6D9DC5;
 }
-
-
-
-
 
 /* Contact Info
 ---------------------------------------*/
