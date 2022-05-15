@@ -1,0 +1,197 @@
+/* COLOR PALETTE
+
+    https://coolors.co/068d9d-53599a-6d9dc5-80ded9-aeecef
+
+    #73EEDC - turquoise
+    #73C2BE - maximum blue green
+    #776885 - old lavender
+    #5F1A37 - tyrian purple
+    #042A2B - rich black
+    #012A36 - gone metal
+
+    font-famiy: 'Montserrat', sans-serif;
+    font-family: 'Caveat', cursive;
+
+*/
+
+/* Global styles
+---------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    color: #012A36;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+img {
+    width: 100px;
+}
+
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed #012A36;
+    padding: 20px 0;
+    
+}
+
+.project-item  img{
+    float: left;
+    margin-right: 20px;
+
+}
+
+a {
+    color: yellow;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 45px;
+    line-height: 1;
+}
+
+h1, h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    margin: 0;
+}
+
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+
+/* Profiles
+---------------------------------------*/
+header {
+    background-color:#53599A;
+    color: floralwhite; 
+    text-align: center;
+}
+
+
+
+
+/* Projects (Eğitim ve Sertifikalar)
+---------------------------------------*/
+
+.projects {
+    background: #AEECEF;
+}
+
+.projects a { 
+    color:#012A36;
+}
+
+.projects .btn {
+    color: whitesmoke;
+    background-color: #012A36;
+    text-decoration: none;
+    padding: 8px;
+    border-radius:4px;
+    display: inline-block;
+    position: relative;
+    left: 120px;
+    
+}
+
+.project-item h3, .project-item p, .project-item a {
+    overflow: hidden;
+}
+
+.projects .btn:hover {
+    background-color:rgb(1, 42, 54, 0.8);
+}
+
+.project-item h3 {
+    margin-top: 0;
+}
+
+
+
+.project-item:last-child {
+    border-bottom: none;
+    text-align: center;
+    
+}
+
+.project-item .btn-more {
+    color: whitesmoke;
+    background-color: #012A36;
+    text-decoration: none;
+    padding: 8px;
+    border-radius:4px;
+    display: inline-block;
+
+}
+
+
+/* Work Experience
+---------------------------------------*/
+.work-experience {
+    background: #80DED9;
+    
+}
+
+.job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+}
+
+.exp-margin{
+    margin-top: 40px;
+}
+
+
+
+/* Education
+---------------------------------------*/
+.education {
+    background-color: #6D9DC5;
+}
+
+
+
+
+
+/* Contact Info
+---------------------------------------*/
+
+footer {
+    background-color: #012A36;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-list a {
+    padding: 15px;
+    display: inline-block;
+}
