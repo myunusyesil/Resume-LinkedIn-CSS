@@ -193,7 +193,10 @@ a.btn-more {
 /* Education
 ---------------------------------------*/
 .education {
-    background-color: #6D9DC5;
+    background-image: url(/css-essential-training-linkedin/css-resume-myy/images/joanna-kosinska-unsplash.jpg);
+    background-size:cover;
+    background-position: right top;
+    
 }
 
 /* Contact Info
@@ -210,6 +213,7 @@ footer {
     padding: 0;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .contact-list a {
@@ -221,6 +225,11 @@ footer {
 /* Responsive
 ---------------------------------------*/
 @media screen and (max-width: 750px) {
+
+    header, footer {
+        text-align: left;
+    }
+
     .project-item { 
     flex-wrap: wrap;
     justify-content: center;
@@ -236,8 +245,15 @@ footer {
     }
 
     .job-item {
+        display: grid;
         grid-template-columns: 1fr;
-        
     }
-    
+
+    h1 {
+        font-size: 40px;
+    }
+    .contact-list {
+        flex-direction: column;
+    }
+
 }
