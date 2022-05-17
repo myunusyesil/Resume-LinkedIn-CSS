@@ -216,3 +216,28 @@ footer {
     padding: 15px;
     display: inline-block;
 }
+
+
+/* Responsive
+---------------------------------------*/
+@media screen and (max-width: 750px) {
+    .project-item { 
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+    .flex-item {
+        flex: 0 1 150px;
+        
+    }
+
+    .project-item  img{
+        margin: 0;
+    }
+
+    .job-item {
+        grid-template-columns: 1fr;
+        
+    }
+    
+}
