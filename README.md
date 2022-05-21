@@ -1,6 +1,6 @@
-# LinkedIn CSS Essential Video Serisi
+# LinkedIn CSS Essential Video Serisi #
 
-4.29h saatlik video sersinin içeriği şu şekildedir. Video serisi sonunda single page resume hazırladım.
+Video serisi sonunda single page resume hazırladım.
 
 Cascading Style Sheets (CSS) is a stylesheet language that allows you to control the appearance of your webpages. 
 In this hands-on course, Christina Truong demonstrates the concepts that form the foundation of CSS, 
@@ -10,6 +10,7 @@ She shows how to use selectors, how the box model defines the spacing and sizing
 and how to style text and manage basic layouts with Flexbox and Grid. She also covers working with advanced selectors, 
 creating fluid layouts, and determining when to use the float and position properties. Plus, at the end of the course, you'll walk away with an actual project—an online résumé page.
 
+## 4.29h saatlik video sersinin içeriği şu şekildedir. ##
 * Bullet list
 * Learning objectives
 * Writing basic selectors
