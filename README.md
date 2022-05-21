@@ -10,13 +10,14 @@ She shows how to use selectors, how the box model defines the spacing and sizing
 and how to style text and manage basic layouts with Flexbox and Grid. She also covers working with advanced selectors, 
 creating fluid layouts, and determining when to use the float and position properties. Plus, at the end of the course, you'll walk away with an actual project—an online résumé page.
 
-Learning objectives
-Writing basic selectors
-Setting properties
-Cascade and inheritance
-Setting a font family, font size, text color, and more
-Working with the box model
-Leveraging Grid and Flexbox
-Using the float and position properties
-Working with advanced selectors
-Creating fluid layouts
+* Bullet list
+* Learning objectives
+* Writing basic selectors
+* Setting properties
+* Cascade and inheritance
+* Setting a font family, font size, text color, and more
+* Working with the box model
+* Leveraging Grid and Flexbox
+* Using the float and position properties
+* Working with advanced selectors
+* Creating fluid layouts
